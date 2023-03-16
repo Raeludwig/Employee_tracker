@@ -1,0 +1,24 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raeludwig/Employee_tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raeludwig/Employee_tracker/issues"
+  },
+  "homepage": "https://github.com/Raeludwig/Employee_tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

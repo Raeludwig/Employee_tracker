@@ -207,11 +207,11 @@ function addEmployee() {
               (err, results) => {
                 if (err) console.error(err);
                 else console.log('New employee added successfully!');
-                init();
+                
               }
-           
+          
             ); 
-              addEmployee();
+              init();
           });
   
       });
@@ -243,30 +243,7 @@ function addEmployee() {
     });
   }
   
-  function getDepartmentDetail() {
-    inquirer.prompt([
-      {
-        type: 'input',
-        name: 'name',
-        message: 'What is the name of the new department?'
-      }
-    ])
-    .then((response) => {
-      db.query(
-        "INSERT INTO department (department_name) VALUES (?)",
-        [response.name],
-        function(err, results) {
-          if (err) {
-            console.error(err);
-          } else {
-            console.log("New department added successfully!");
-            console.table(results);
-          }
-          init();
-        }
-      );
-    });
-  }
+
   
   //update roles
   function updateRole() {

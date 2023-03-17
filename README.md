@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-Employee_tracker
+Employee Tracker
   <br>
 </h1>
 
